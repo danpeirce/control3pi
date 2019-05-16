@@ -37,4 +37,18 @@ milivolts = value1 + value2 * 256
 
 ### 3Pi Signature
 
+The signature command was sent to the 3pi slave with the following response:
+
+~~~~
+** 3Pi signature? **
+51
+112
+105
+49
+46
+49
+~~~~
+
+The decimal values were then entered into a ascii converter web page to obtain the message as a string.
+
 ![](image/3pi-signature.png)
