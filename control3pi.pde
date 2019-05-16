@@ -27,6 +27,9 @@ void keyPressed() {
     if (key == '1') {
       println("** Battery Millivolts: **");
       myPort.write(0xB0);
+    } else if (key == '2') {
+      println("** Slave Version? **");
+      myPort.write(0xB0);
     } else if (key == ' ') {
       myPort.write(0x20);
     } else if (key == CODED) 
